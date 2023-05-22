@@ -1,0 +1,66 @@
+nav{
+  display: flex; flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 2rem 0 2rem;
+  height: 3.5rem;
+}
+    .nav-me{
+      display: flex; flex-direction: row;
+      height:75%
+    }
+          .nav-me div{
+            display: flex; flex-direction: column;
+            justify-content: space-evenly;
+            align-items: left;
+            margin: 0 0 0 0.8rem;
+          }
+          .nav-me div h6{
+            font-size: 0.85rem;
+            margin: 0 0 0 0;
+            white-space: nowrap;
+          }
+
+    .nav-buttons{
+      display: flex; flex-direction: row;
+      justify-content:space-between;
+      align-items: center;
+      background-color: white;
+      border-radius: 2rem;
+      padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+      width: 26rem;
+    }
+        .nav-buttons a{
+          padding: 0.75rem 1rem 0.75rem 1rem;
+          text-decoration: none;
+
+          border: solid; border-color: var(--boootpurple);
+          background-color: var(--boootpurple);
+          border-width: 0.1rem;
+          border-radius: 2rem;
+        }
+        .nav-buttons a h6{
+          color: var(--boootwhite);
+          font-weight: 700;
+          font-size: 0.85rem;
+        }
+
+    .nav-sm_link{
+      display: flex; flex-direction: row;
+      justify-content: space-between;
+      height: 75%;
+      width: 10rem;
+    }
+        .nav-sm_link a{
+          height: 100%;
+          display: flex;
+        }
+
+@media only screen and (max-width:999px) {
+  .nav-buttons{
+    visibility: hidden;
+  }
+  .nav-sm_link{
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,34 @@
+:root {
+  --boootpink: #FF1AC6;
+  --boootpurple: #5336AA;
+  --boootblack: #191919;
+  --boootwhite: #F2F2F2;
+  --boootyellow: #FFE433;
+}
+
+body {
+  background-color: var(--boootwhite);
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+h1{
+  margin: 0 0 0 0;
+  font-size: 1rem;
+  font-family:'Raleway',sans-serif;
+  font-weight: 400;
+  color: var(--boootpurple);
+}
+
+h2, h3, h4, h5, h6{
+  margin: 0 0 0 0;
+  font-size: 1rem;
+  font-family:'Raleway',sans-serif;
+  font-weight: 400;
+}
+
+p{
+  margin: 0.25rem 0 0.25rem 0;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+}

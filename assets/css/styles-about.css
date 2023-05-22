@@ -1,0 +1,14 @@
+main{
+  display: flex; flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+    .a4smain_img{
+      margin: 0 0 3rem 0;
+      width: 20rem;
+    }
+
+    main h1{
+      font-size: 5rem;
+    }
