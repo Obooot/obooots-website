@@ -11,9 +11,9 @@
   <!-- 
     font-family: 'Inter', sans-serif; = thin(100), regular(400), bold(700)
     font-family: 'Raleway', sans-serif; = regular(400), bold(700)-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Raleway:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Raleway:ital,wght@0,100;0,400;0,700;0,800;1,100;1,400;1,700;1,800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/styles-nav.css">
@@ -21,15 +21,15 @@
 
   <!-- note!
   tall screens mobile= min-height: 721px
-  regular phone max-width: 375px
+  regular phone max-width: 400px
   tablets max-width: 641px / 1007px -->
 </head>
 
 
 <body>
-  <a href="#top"><i class='far fa-arrow-alt-circle-up' style="
+  <a href="#top" class="nav-fa-arrow"><i class='far fa-arrow-alt-circle-up' style="
   position: fixed; bottom: 1.75rem; right: 2rem;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   color: var(--boootpurple);"></i></a>
 
   <nav>
@@ -40,6 +40,10 @@
         <h6>Hi! It's OBOOOT</h6>
         <h6><span style="font-weight:bold;">Crysta Bella</span></h6>
       </div>
+    </div>
+
+    <div class="nav-fa">
+      <i class="fa-solid fa-door-closed"></i>
     </div>
 
     <div class="nav-buttons">
@@ -69,6 +73,8 @@
       ABOUT ME!</span></h1>
   </main>
 
+  <hr>
+
   <!-- add left margin that resized according to
     the viewport size ALL SECTION-->
   <section class="a4s0">
@@ -83,13 +89,15 @@
         favorite tunes.</p>
     </div>
 
-    <img src="assets/img/4s0_el00.svg">
+    <img src="assets/img/a4-about/a4-01.svg">
   </section>
+
+  <hr>
 
   <section class="a4s1">
     <h1>IF YOU ARE LOOKING FOR</h1>
     <h1><span style="font-weight: bold;">ALL-WORK-NO-PLAY,</span>
-    TYPE OF DESIGNER, YOU'RE IN THE WRONG PLACE</h1>
+    TYPE OF DESIGNER, YOU'RE IN <span style="font-weight: bold;">THE WRONG PLACE</span></h1>
 
     <p>I like to keep things light and fun, and my sense 
       of humor tends to sneak into thing that I do. But 
@@ -98,13 +106,15 @@
       good but also communicate effectively.</p>
   </section>
 
+  <hr>
+
   <section class="a4s2">
     <div>
-      <a href="#"><img src="porto-4s2_el00" alt="portfolio here!"></a>
-      <a href="#"><img src="infographics-4s2_el01" alt="some infographics just for fun!"></a>
-      <a href="#"><img src="photodump-4s2_el02" alt="personal blog and some photodump here!"></a>
+      <a href="#"><img src="assets/img/a4-about/a4-02.svg" alt="portfolio here!"><p>My Design Portfolio</p></a>
+      <a href="#"><img src="assets/img/a4-about/a4-03.svg" alt="some infographics just for fun!"><p>Random Infographics</p></a>
+      <a href="#"><img src="assets/img/a4-about/a4-04.svg" alt="personal blog and some photodump here!"><p>Blog/Personal Dump</p></a>
     </div>
-    <p>I hope through this blog, I can share my 
+    <p class="a4s2-p">I hope through this blog, I can share my 
       experiences and insights with other designers, 
       art lovers, and curious minds alike. So come 
       along for the ride as we explore the exciting 
@@ -130,7 +140,7 @@
 
     <!-- only visible when the viewports
       width is lower than 1000px -->
-    <div>
+    <div class="nav-footer-sm_vp-">
       <a href="#"><img src="assets/img/behance_link1.svg" alt="check out my Behance account"></a>
       <a href="#"><img src="assets/img/instagram_link1.svg" alt="check out my Instagram account"></a>
       <a href="#"><img src="assets/img/linkedin_link1.svg" alt="check out my Linkedin account"></a>
